@@ -1,0 +1,15 @@
+language: go
+
+go:
+  - 1.9
+  - 1.10
+  - 1.11
+  - tip
+
+go_import_path: github.com/emmyzkp/crypto
+
+install:
+  - go get -u -t github.com/$TRAVIS_REPO_SLUG
+
+script:
+  - go test -v -cover $(ALL)
