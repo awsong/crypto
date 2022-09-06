@@ -17,7 +17,11 @@
 
 package ec
 
-import "crypto/elliptic"
+import (
+	"crypto/elliptic"
+
+	"github.com/emmansun/gmsm/sm2/sm2ec"
+)
 
 type Curve int
 
@@ -33,7 +37,7 @@ func GetCurve(c Curve) elliptic.Curve {
 	case P224:
 		return elliptic.P224()
 	case P256:
-		return elliptic.P256()
+		return sm2ec.P256()
 	case P384:
 		return elliptic.P384()
 	case P521:
