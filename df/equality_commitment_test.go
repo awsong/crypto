@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/awsong/crypto/common"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
 )
 
 // TestDFCommitmentEquality demonstrates how to prove that the two commitments c1, c2

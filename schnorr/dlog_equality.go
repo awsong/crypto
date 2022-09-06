@@ -20,7 +20,7 @@ package schnorr
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // ProveEquality demonstrates how prover can prove the knowledge of log_g1(t1), log_g2(t2) and
@@ -115,7 +115,7 @@ func (v *EqualityVerifier) GetChallenge(g1, g2, t1, t2, x1, x2 *big.Int) *big.In
 }
 
 // It receives z = r + secret * challenge.
-//It returns true if g1^z = g1^r * (g1^secret) ^ challenge and g2^z = g2^r * (g2^secret) ^ challenge.
+// It returns true if g1^z = g1^r * (g1^secret) ^ challenge and g2^z = g2^r * (g2^secret) ^ challenge.
 func (v *EqualityVerifier) Verify(z *big.Int) bool {
 	left1 := v.Group.Exp(v.g1, z)
 	left2 := v.Group.Exp(v.g2, z)

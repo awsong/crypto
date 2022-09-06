@@ -22,7 +22,7 @@ import (
 
 	"fmt"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // PositiveProver proves that the commitment hides the positive number. Given c,

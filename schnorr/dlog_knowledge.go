@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // Prover is a generalized Schnorr - while usually Schnorr proof is executed with one base,

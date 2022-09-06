@@ -20,9 +20,9 @@ package preimage_test
 import (
 	"testing"
 
+	"github.com/awsong/crypto/preimage"
+	"github.com/awsong/crypto/qoneway"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/preimage"
-	"github.com/emmyzkp/crypto/qoneway"
 )
 
 func TestHomomorphismPreimage(t *testing.T) {

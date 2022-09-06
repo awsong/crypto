@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/awsong/crypto/common"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
 )
 
 // TestDFCommitmentRange demonstrates how to prove that the commitment

@@ -20,10 +20,10 @@ package schnorr
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
 
-	"github.com/emmyzkp/crypto/zn"
+	"github.com/awsong/crypto/zn"
 )
 
 func TestDLogEqualityBT(t *testing.T) {

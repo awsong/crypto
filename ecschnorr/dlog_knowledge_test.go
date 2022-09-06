@@ -20,9 +20,9 @@ package ecschnorr
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
 )
 
 // TestECDLogKnowledge demonstrates how prover can prove the knowledge of log_g1(t1) - that

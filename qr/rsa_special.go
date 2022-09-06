@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // RSASpecial presents QR_N - group of quadratic residues modulo N where N is a product

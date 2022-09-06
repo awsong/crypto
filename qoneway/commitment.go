@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/rsa"
+	"github.com/awsong/crypto/rsa"
 )
 
 // RSABased represents RSA-based q-one-way.

@@ -22,9 +22,9 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/qr"
-	"github.com/emmyzkp/crypto/schnorr"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/qr"
+	"github.com/awsong/crypto/schnorr"
 )
 
 // todo: does hash really need to be into [0, 2^l]?

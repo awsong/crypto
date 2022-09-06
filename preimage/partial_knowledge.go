@@ -20,8 +20,8 @@ package preimage
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto"
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto"
+	"github.com/awsong/crypto/common"
 )
 
 // ProvePartialPreimageKnowledge demonstrates how prover can prove that he knows f^(-1)(u1) and

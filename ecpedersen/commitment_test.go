@@ -20,9 +20,9 @@ package ecpedersen
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
 )
 
 // TestPedersenEC demonstrates how a value can be committed and later opened (decommitted) using Pedersen EC committer.

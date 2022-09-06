@@ -20,9 +20,9 @@ package qoneway
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/preimage"
+	"github.com/awsong/crypto"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/preimage"
 )
 
 // ProveBitCommitment demonstrates how committer can prove that a commitment contains
@@ -146,18 +146,18 @@ func NewMultiplicationProver(homomorphism func(*big.Int) *big.Int,
 	return &MultiplicationProver{
 		QOneWayHomomorphism:    homomorphism,
 		QOneWayHomomorphismInv: homomorphismInv,
-		H: H,
-		Q: Q,
-		Y: Y,
-		A: commitments.A,
-		B: commitments.B,
-		C: commitments.C,
-		a: committedValues.A,
-		b: committedValues.B,
-		r: randomValues.A,
-		u: randomValues.B,
-		o: randomValues.C,
-		t: t,
+		H:                      H,
+		Q:                      Q,
+		Y:                      Y,
+		A:                      commitments.A,
+		B:                      commitments.B,
+		C:                      commitments.C,
+		a:                      committedValues.A,
+		b:                      committedValues.B,
+		r:                      randomValues.A,
+		u:                      randomValues.B,
+		o:                      randomValues.C,
+		t:                      t,
 	}
 }
 

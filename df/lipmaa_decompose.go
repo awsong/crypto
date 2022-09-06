@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // Common values used for comparisons and big integer arithmetic, defined here for convenience.

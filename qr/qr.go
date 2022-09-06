@@ -24,8 +24,8 @@ import (
 
 	"fmt"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/schnorr"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/schnorr"
 )
 
 // ProveQR demonstrates how the prover can prove that y1^2 is QR.

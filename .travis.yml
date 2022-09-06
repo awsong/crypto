@@ -6,7 +6,7 @@ go:
   - 1.11
   - tip
 
-go_import_path: github.com/emmyzkp/crypto
+go_import_path: github.com/awsong/crypto
 
 install:
   - go get -u -t github.com/$TRAVIS_REPO_SLUG

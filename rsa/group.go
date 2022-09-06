@@ -22,7 +22,7 @@ import (
 	"crypto/rsa"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/zn"
+	"github.com/awsong/crypto/zn"
 )
 
 // Group presents Z_n* - group of all integers smaller than n and coprime with n,

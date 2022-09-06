@@ -20,8 +20,8 @@ package ecschnorr
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 )
 
 // Prover proves knowledge of a discrete logarithm.

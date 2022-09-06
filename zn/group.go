@@ -20,7 +20,7 @@ package zn
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // Group represents Z_n* - group of all integers smaller than n and coprime with n.

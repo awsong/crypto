@@ -22,8 +22,8 @@ import (
 
 	"fmt"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/schnorr"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/schnorr"
 )
 
 // TODO: might be better to have only one method (like GetCommitment) instead of

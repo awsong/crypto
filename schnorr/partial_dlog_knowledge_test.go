@@ -20,9 +20,9 @@ package schnorr
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/zn"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/zn"
 )
 
 func TestPartialDLogKnowledge(t *testing.T) {

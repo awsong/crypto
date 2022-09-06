@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // https://pirk.incubator.apache.org/papers/1999_asiacrypt_paillier_paper.pdf

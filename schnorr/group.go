@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // Group is a cyclic group in modular arithmetic. It holds P = Q * R + 1 for some R.

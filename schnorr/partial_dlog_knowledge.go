@@ -20,7 +20,7 @@ package schnorr
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // ProvePartialDLogKnowledge demonstrates how prover can prove that he knows dlog_a2(b2) and
@@ -41,7 +41,8 @@ func ProvePartialDLogKnowledge(group *Group, secret1, a1, a2, b2 *big.Int) bool 
 }
 
 // Proving that it knows either secret1 such that a1^secret1 = b1 (mod p1) or
-//  secret2 such that a2^secret2 = b2 (mod p2).
+//
+//	secret2 such that a2^secret2 = b2 (mod p2).
 type PartialProver struct {
 	Group   *Group
 	secret1 *big.Int

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/qr"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/qr"
 )
 
 // Based on:

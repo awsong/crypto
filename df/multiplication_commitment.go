@@ -20,7 +20,7 @@ package df
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // MultiplicationProver proves for given commitments

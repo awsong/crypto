@@ -20,9 +20,9 @@ package ecschnorr
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
 )
 
 func TestPartialECDLogKnowledge(t *testing.T) {

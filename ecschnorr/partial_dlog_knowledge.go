@@ -20,8 +20,8 @@ package ecschnorr
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 )
 
 type ECTriple struct {
@@ -55,7 +55,8 @@ func ProvePartialDLogKnowledge(group *ec.Group, secret1 *big.Int,
 }
 
 // Proving that it knows either secret1 such that a1^secret1 = b1 or
-//  secret2 such that a2^secret2 = b2.
+//
+//	secret2 such that a2^secret2 = b2.
 type PartialProver struct {
 	Group   *ec.Group
 	secret1 *big.Int

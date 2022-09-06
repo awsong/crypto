@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/qr"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/qr"
 )
 
 // TestSpecialRSA demonstrates how to prove that for a given y you know secrets x_1,...,x_k

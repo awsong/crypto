@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"testing"
 
+	"github.com/awsong/crypto/qr"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/qr"
 )
 
 func TestGeneratorOfCompositeQR(t *testing.T) {

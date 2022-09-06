@@ -20,8 +20,8 @@ package preimage
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto"
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto"
+	"github.com/awsong/crypto/common"
 )
 
 // ProvePreimageKnowledge demonstrates how given Homomorphism f:H->G and element u from G

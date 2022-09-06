@@ -21,7 +21,7 @@ import (
 	"crypto/elliptic"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // TODO Insert appropriate comment with description of this struct

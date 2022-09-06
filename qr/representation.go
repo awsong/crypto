@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
+	"github.com/awsong/crypto/common"
 )
 
 // TODO: Protocol being proof of knowledge is shown by the existance of knowledge extractor. In Schnorr protocol

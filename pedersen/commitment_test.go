@@ -20,8 +20,8 @@ package pedersen
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
 )
 
 // TestPedersen demonstrates how a value can be committed and later opened (decommitted) using Pedersen committer.

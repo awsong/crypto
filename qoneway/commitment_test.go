@@ -20,8 +20,8 @@ package qoneway
 import (
 	"testing"
 
+	"github.com/awsong/crypto/common"
 	"github.com/stretchr/testify/assert"
-	"github.com/emmyzkp/crypto/common"
 )
 
 func TestRSABasedCommitment(t *testing.T) {

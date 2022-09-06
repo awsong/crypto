@@ -20,8 +20,8 @@ package ecschnorr
 import (
 	"math/big"
 
-	"github.com/emmyzkp/crypto/common"
-	"github.com/emmyzkp/crypto/ec"
+	"github.com/awsong/crypto/common"
+	"github.com/awsong/crypto/ec"
 )
 
 // BlindedTrans represents a blinded transcript.
@@ -187,7 +187,7 @@ func (v *BTEqualityVerifier) GetChallenge(g1, g2, t1, t2, x1,
 }
 
 // It receives z = r + secret * challenge.
-//It returns true if g1^z = g1^r * (g1^secret) ^ challenge and g2^z = g2^r * (g2^secret) ^ challenge.
+// It returns true if g1^z = g1^r * (g1^secret) ^ challenge and g2^z = g2^r * (g2^secret) ^ challenge.
 func (v *BTEqualityVerifier) Verify(z *big.Int) (bool, *BlindedTrans,
 	*ec.GroupElement, *ec.GroupElement) {
 	left1 := v.Group.Exp(v.g1, z)
